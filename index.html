@@ -10,45 +10,73 @@
     <main>
       <nav class="menu-superior">
         <img src="./img/logo.png" class="logo" alt="logo" />
-        <ul> 
-        <li>Mac</li>
-        <li>iPad</li>
-        <li>iPhone</li>
-        <li>Watch</li>
-        <li>Airpode</li>
-        <li>Acessórios</li>
-        <li>Suporte</li>
-    </ul>
+        <ul>
+          <li>Mac</li>
+          <li>iPad</li>
+          <li>iPhone</li>
+          <li>Watch</li>
+          <li>Airpode</li>
+          <li>Acessórios</li>
+          <li>Suporte</li>
+        </ul>
       </nav>
 
       <section>
         <div class="container-esquerdo">
           <h1 class="titulo-iphone">iPhone 14</h1>
-          <h2 class="titulo-secundario">Tão poderoso. Tão ao seu alcance</h2>
+          <h2 class="titulo-secundario">
+            Poderoso como nunca. Sempre ao seu alcance.
+          </h2>
 
           <p class="descricao">
-            Em dois tamanhos perfeitos. Agora com um toquede amarelo
+            Em dois tamanhos perfeitos. agora disponível em um novo e vibrante
+            amarelo.
           </p>
           <p class="preco">A partir de R$ 633,25/mês ou R$ 7.599*</p>
 
           <button class="botao-comprar">Comprar</button>
-         
+
           <p class="escolha-cor">Escolha sua cor:</p>
 
           <div>
-            <button class="azul troca-cor"></button>
-            <button class="amarelo troca-cor"></button>
-            <button class="branco troca-cor"></button>
-            <button class="preto troca-cor"></button>
-            <button class="vermelho troca-cor"></button>
-            <button class="roxo troca-cor"></button>
+            <!-- adicionamos o evento de click para chamar as funções trocaCor() e trocaImagem() quando o botao for clicado -->
+            <!-- trocaCor( ) altera a cor de um elemento para a cor passada como parametro.-->
+            <!--trocaImagem() muda a imagem exibida para a imagem que passamos no parametro-->
+
+            <button
+              onclick="trocaCor('#81a5c4'); trocaImagem('./img/iphone-azul.png')"
+              class="azul troca-cor"
+            ></button>
+            <button
+              onclick="trocaCor('#f7da47'); trocaImagem('./img/iphone-amarelo.png')"
+              class="amarelo troca-cor"
+            ></button>
+            <button
+              onclick="trocaCor('#C1C1C1'); trocaImagem('./img/iphone-branco.png')"
+              class="branco troca-cor"
+            ></button>
+            <button
+              onclick="trocaCor('#272d33'); trocaImagem('./img/iphone-preto.png')"
+              class="preto troca-cor"
+            ></button>
+            <button
+              onclick="trocaCor('#b50012'); trocaImagem('./img/iphone-vermelho.png')"
+              class="vermelho troca-cor"
+            ></button>
+            <button
+              onclick="trocaCor('#ede7f1'); trocaImagem('./img/iphone-roxo.png')"
+              class="roxo troca-cor"
+            ></button>
           </div>
         </div>
 
         <!-- circulo -->
-        <div class="circulo"> </div>
+        <div class="circulo"></div>
         <img src="./img/iphone-azul.png" class="celular" />
       </section>
     </main>
+
+    <!-- conexao com  o javascript -->
+    <script src="./script.js"></script>
   </body>
 </html>

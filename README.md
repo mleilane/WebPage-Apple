@@ -2,6 +2,10 @@
 <p> Este projeto é uma página de destino inspirada na Apple Brasil, focada na apresentação do iPhone 14. 
   A página permite que o usuário interaja, escolhendo diferentes cores do iPhone e visualizando as mudanças em tempo real.</p>
 
+<h2> 🔗 Link para o Deploy </h2>
+
+- Veja a versão ao vivo do projeto aqui: <a href="https://webpage-appl.netlify.app/"> iPhone - Apple Brasil </a>
+
 <h2> 🎨 Funcionalidades </h2>
 
 * Escolha de Cor do iPhone: O usuário pode selecionar diferentes cores de iPhone, que alteram tanto a cor de fundo quanto a imagem do dispositivo.
@@ -38,3 +42,6 @@
 
 3. Abra o arquivo index.html em seu navegador preferido.
 
+<h2>  📣 Feedback </h2>
+
+Gostou do projeto? Tem sugestões? Deixe um feedback rápido 😉
